@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Eashan Yadav</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/efa9cc553c.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="myimage.jpeg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=REM&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- header  -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#aboutme">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><button class="btn-resume" onclick="openResume()">Resume <i
+                            class="fa-sharp fa-solid fa-circle-arrow-right"></i></button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- about me -->
+
+    <div class="aboutme">
+        <img src="myimage.jpeg" alt="My Image">
+        <h1>Hi, I'm Eashan Yadav</h1>
+        <h2>Crafting captivating web experiences.</h2>
+    </div>
+
+    <hr>
+    <!-- projects -->
+
+    <section class="projects">
+        <h1>Projects</h1>
+        <h2>Check out some of my personal projects</h2>
+        <img src="./tempConvertor.png" alt="temp Convertor"> <br>
+        <a href="https://github.com/eashan7yadav/tempConvertor">Project Link</a>
+        </div>
+        <hr>
+
+        <!-- contact -->
+
+        <section id="contact">
+            <h1>Contact Me</h1>
+            <div class="social-icons">
+                <a href="mailto:eashanyadav447@gmail.com"><i class="fas fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/eashan-yadav"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/eashan7yadav"><i class="fab fa-github"></i></a>
+                <a href="https://twitter.com/eashan__07"><i class="fab fa-twitter"></i></a>
+
+                <!-- Add more social media links and icons as needed -->
+            </div>
+        </section>
+
+        <!-- footer  -->
+
+        <footer>
+            &copy; 2023 Eashan Yadav. All rights reserved.
+        </footer>
+        <script>
+            function openResume() {
+                window.location.href = 'eashany_resume.pdf';
+            }
+        </script>
+</body>
+
+</html>
